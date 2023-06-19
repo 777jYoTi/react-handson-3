@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient( 45deg ,#7462ff ,rgb(145, 149, 144) , #d61dcd ,#d2001a , #23d5ab);
+  background-size: 300% 300%;
+  background-repeat: no-repeat;
+}
+
+
+
+
+.feedback-All table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .feedback-All th,
+  .feedback-All td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .feedback-All th {
+    background-color:transparent;
+  }
+  button[type="button"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .div-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
